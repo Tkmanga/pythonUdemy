@@ -30,3 +30,87 @@ body{
     color: #575;
     
 }
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: justify;
+    /*text-decoration: underline;*/ 
+    text-indent: 40px;
+    line-height: 1.7;
+    text-shadow: 5px 2px 5px rgba(0,0,0,0.5);
+}
+
+a{
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.youtube{
+    color: hotpink;
+    border: solid 1px #d00;
+    background-color: #f00;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.youtube:link{
+    color: pink;
+    text-decoration: none;
+}
+
+.youtube:visited{
+    color: white;
+}
+.youtube:hover{
+    color: blue;
+    background-color: #f55;
+}
+.youtube:active{
+    color: black;
+}
+ul{
+    list-style-type: none;
+    background-color: white;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    padding-left: 0px;
+}
+
+li{
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    
+}
+td{
+    border:1px solid #ddd;
+    padding:8px;
+}
+table th{
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+p{
+    display: inline;
+}

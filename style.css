@@ -1,0 +1,36 @@
+body{
+    background-color: #eee;
+    
+}
+
+#parrafo {
+    color: red
+}
+
+.etiqueta {
+    color: blue
+    
+}
+
+.caja{
+    margin: 8px;
+    background-color: #aaf;
+    padding: 8px;
+    border-style: solid;
+    /*
+    hay muchos estilos 
+    dotted dashed solid double; lo va agregando en orden de las manesillas del reloj
+    */
+    border-width: 8px;
+    border-color: red;
+    border-left: dotted; /*podemos agregar todo en una misma orden 6px solid #afa por ejemplo*/
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    color: #575;
+}
+
+p{
+    color: blue;
+    text-align: justify;
+}
