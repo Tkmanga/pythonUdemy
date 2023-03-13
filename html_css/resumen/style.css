@@ -112,5 +112,13 @@ table th{
 }
 
 p{
-    display: inline;
+    /*display: inline;*/ 
+    max-width: 350px; 
+    margin: auto; /*centra pero tiene que tener display block */ 
+    background-color: #f00;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    bottom: 0px;
+
 }
