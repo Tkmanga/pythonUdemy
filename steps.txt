@@ -1,0 +1,19 @@
+creamos una carpeta-proyecto 
+instalamos venv 
+
+    python -m venv venv
+
+ACTIVAMOS EL AMBIENTE
+
+    . venv/Scripts/activate
+
+INSTALAMOS COMPLEMENTOS NECESARIOS
+
+    pip install werkzeug
+    pip install mysql-connector-python
+
+Una vez creada la estructura vamos correr flask 
+
+    export FLASK_APP=todo 
+    export FLASK_ENV=development
+    flask run 
