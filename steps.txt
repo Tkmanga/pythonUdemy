@@ -14,8 +14,13 @@ INSTALAMOS COMPLEMENTOS NECESARIOS
 
 Una vez creada la estructura vamos correr flask 
 
-    export FLASK_APP=todo && FLASK_DEBUG = True && export FLASK_ENV=development
+    export FLASK_APP=todo && 
+    export FLASK_DEBUG = True && 
+    export FLASK_ENV=development
     
     
-    export FLASK_DATABASE_HOST='localhost' && export FLASK_DATABASE_USER='jtacacho' && export FLASK_DATABASE_PASSWORD='Boldt1234' && export FLASK_DATABASE='prueba'
+    export FLASK_DATABASE_HOST='localhost' && 
+    export FLASK_DATABASE_USER='jtacacho' && 
+    export FLASK_DATABASE_PASSWORD='Boldt1234' && 
+    export FLASK_DATABASE='prueba'
     flask run 

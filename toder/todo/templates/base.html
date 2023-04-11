@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <title>{% block title %} {% endblock %} - Todo List</title>
-<link rel="stylesheet" href="{{ url_for('static',filename='style.css'}}">
+<link rel="stylesheet" href="{{url_for('static', filename='style.css') }}">
 
 <nav>
     <h1>Todo List</h1>
@@ -8,9 +8,9 @@
         {% if g.user %}
             <li><span>{{g.user['username']}}</span></li>
             <li><a href="{{url_for('auth.logout')}}" >Cerrar sesion</a></li>
-        {{% else %}}
-            <li><a href="{{url_for('auth.register')}}">Registrarse</a></li>
-            <li><a href="{{url_for('auth.login')}}">Iniciar sesion</a></li>
+            {% else %}
+                <li><a href="{{url_for('auth.register')}}">Registrarse</a></li>
+                <li><a href="{{url_for('auth.login')}}">Iniciar sesion</a></li>
         {% endif %}
     </ul>
 </nav>
