@@ -45,7 +45,7 @@ def create():
     return render_template('todo/create.html')
 
 
-@bp.route('/update', methods=['POST', 'GET'])
+@bp.route('/<int:id>/update', methods=['POST', 'GET'])
 @login_required
 def update():
-    return ''
+    return render_template('todo/update.html', todo=todo)
